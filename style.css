@@ -46,3 +46,39 @@ button{
   border: 1px solid gray;
   border-radius: 5%;
 }
+
+@media screen and (max-width: 434px){
+  
+  #electionYear{
+    margin-top: 10%;
+  }
+  
+  #electionYear,
+  #zipCode{
+    width: 55%;
+    height: 55px;
+    font-size: 150%;
+  }
+  
+  button{
+    margin-top: 15%;
+    width: 55%;
+    height: 55px;
+    font-size: 150%;
+  }
+  
+  h1{
+    font-size: 270%;
+  }
+  
+  h4{
+    width: 75%;
+    margin: auto;
+  }
+  
+  p{
+    font-size: 130%;
+    width: 90%;
+    margin: auto;
+  }
+}
